@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="hi.html">
+        <legend>Rregistration Form</legend>
+        <fieldset>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="Your First Name" required> 
+        <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Your Last Name" required>
+        <br><br>
+
+        <label for="bdate">Select your date of birth</label>
+        <input type="date" name="date" id="bdate" required>
+        <br><br>
+
+        <label for="role">Please Specify your role:</label>
+        <input type="radio" name="role" id="role" value="web developer"> Front end web developer</input>
+        <input type="radio" name="role" id="role" value="backend developer"> backend web developer</input>
+        <br><br>
+
+        <label for="resume">Upload resume</label>
+        <input type="file" name="resume" id="resume" accept=".pdf, .docx, .csv, .txt" required>
+        <br><br>
+        <label for="comment">comment</label>
+        <input type="text" name="comment" id="comment">
+        
+        <br><br>
+
+        <input type="submit" value="Register">
+        </fieldset>
+        
+    </form>
+
+    <br><br>
+
+    <hr>
+
+    <form action="hi.html">
+        <legend>My Feedback Form</legend>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required> <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your email" required> <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required><br><br>
+
+            <li>Please check all the emotions that apply to you:
+                <ul> <li><label for="emotions">Angry</label> <input type="checkbox" name="angry" id="emotions"></li>
+                    <li><label for="emotions">Sad</label> <input type="checkbox" name="sad" id="emotions"> </li>
+                    <li><label for="emotions">Happy</label> <input type="checkbox" name="happy" id="emotions"></li>
+                    <li><label for="emotions">Ambivalent</label> <input type="checkbox" name="ambivalent" id="emotions"></li>
+                </ul>
+
+               
+            </li>
+
+             <li>How to satisfied were you with our service?
+                <ul>
+                    <li><label for="service">Very satisfied</label> <input type="checkbox" name="very satisfied" id="service"></li>
+                    <li><label for="service">Satisfied</label> <input type="checkbox" name="satisfied" id="service"></li>
+                    <li><label for="service">Didn't care</label> <input type="checkbox" name="didnt care" id="service"></li>
+                    <li><label for="service">Dissatified</label> <input type="checkbox" name="dissatidfied" id="service"></li>
+                    <li><label for="service">Very dissatidfied</label> <input type="checkbox" name="very dissatisfied" id="service"></li>
+                    
+                </ul>
+             </li>
+             <br>
+
+             <li><label for="comment">Further comments:</label> <input type="text" name="comments" id="comment"></li><br><br>
+             
+            <li><label for="photo">bio photot</label><input type="image" src="" alt="bio photo"></li>
+                
+             
+
+
+
+
+
+
+
+        </fieldset>
+    </form>
+   
+</body>
+</html>
